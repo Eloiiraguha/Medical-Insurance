@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import pickle as pkl
+from keras.models import load_model
 import streamlit as st
 
 model = pkl.load(open('MIPML.pkl', 'rb'))
