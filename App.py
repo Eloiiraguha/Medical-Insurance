@@ -3,7 +3,7 @@ import pandas as pd
 from keras.models import load_model
 import streamlit as st
 
-model = load_model('MIPML.h5')
+model = load_model('MIPML.keras')
 
 st.header('HEALTH INSURANCE PRICE  CHANGES PREDICTOR MODEL')
 
